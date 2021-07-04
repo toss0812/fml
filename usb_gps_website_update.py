@@ -19,7 +19,7 @@ while True:
             r = requests.post( # construct the post request
                 'https://test.regattatracker.nl/api/buoys/' + str(buoy_id) + '/positions', 
                 data = {
-                    'api_key': '661876ad034b008a1dee9eecf024c9db',            
+                    'api_key': '[ API_KEY_HERE ]',            
                     'latitude': round(msg.latitude, 6),
                     'longitude': round(msg.longitude, 6)
                 }
